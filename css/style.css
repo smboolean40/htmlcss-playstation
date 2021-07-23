@@ -2,13 +2,19 @@
 body {
 	font-family: Arial, sans-serif;
 }
-
+.img_rounded {
+	border-radius: 20px;
+}
 /* Button */
 .btn_gray {
 	background-color: #363636;
 	color: #fff;
 }
 .btn_gray:hover {
+	color: #fff;
+}
+.btn_orange {
+	background-color: #CD3D0F;
 	color: #fff;
 }
 
@@ -36,4 +42,31 @@ body {
 }
 .header_bottom .lens {
 	height: 25px;
+}
+
+/* Main */
+.hero {
+	color: #fff;
+}
+.hero_top {
+	background-image: url('../img/jumbo-bg.png');
+	background-size: cover;
+	background-position: top center;
+	padding: 250px 0 50px 0;
+}
+
+.hero_img {
+	height: 35px;
+}
+
+.hero_bottom {
+	padding-bottom: 24px;
+}
+.hero_thumb {
+	margin-top: 24px;
+	padding: 2px;
+	border-radius: 20px;
+}
+.hero_thumb_active {
+	box-shadow: 0px 0px 0px 2px #0072ce;
 }
