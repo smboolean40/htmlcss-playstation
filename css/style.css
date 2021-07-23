@@ -19,6 +19,13 @@ body {
 }
 
 /* Header */
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+}
 .header_top {
 	background-color: #000;
 	display: flex;
@@ -28,7 +35,9 @@ body {
 .header_top img {
 	height: 15px;
 }
-
+.header_bottom {
+	background: #fff;
+}
 .header_bottom .navbar-light .navbar-nav .nav-link {
 	color: #000;
 	font-size: 17px;
@@ -45,6 +54,10 @@ body {
 }
 
 /* Main */
+main {
+	padding-top: 115px;
+}
+
 .hero {
 	color: #fff;
 }
