@@ -1,0 +1,39 @@
+/* Common */
+body {
+	font-family: Arial, sans-serif;
+}
+
+/* Button */
+.btn_gray {
+	background-color: #363636;
+	color: #fff;
+}
+.btn_gray:hover {
+	color: #fff;
+}
+
+/* Header */
+.header_top {
+	background-color: #000;
+	display: flex;
+	justify-content: flex-end;
+	padding: 12px 20px;
+}
+.header_top img {
+	height: 15px;
+}
+
+.header_bottom .navbar-light .navbar-nav .nav-link {
+	color: #000;
+	font-size: 17px;
+}
+.header_bottom .dropdown-toggle::after {
+	content: url('../img/chevron-down-solid.svg');
+	border: none;
+	display: inline-block;
+    width: 10px;
+    vertical-align: middle;
+}
+.header_bottom .lens {
+	height: 25px;
+}
